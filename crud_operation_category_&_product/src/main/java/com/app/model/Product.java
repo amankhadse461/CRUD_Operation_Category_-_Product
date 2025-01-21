@@ -18,7 +18,4 @@ public class Product {
 	private String pname;
 	private double price;	
 
-	@ManyToOne
-	@JsonIgnore
-	private Category category;
 }
